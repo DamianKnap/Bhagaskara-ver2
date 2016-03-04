@@ -21,14 +21,14 @@ $(function () {
         }
     });
 ////////////////////////////////////////////////////OUR TEAM GALLERY/////////////////////////////////////////////////////////
-    var leftArrow = $(".leftArrow");
-    var rightArrow = $(".rightArrow");
-    var gallery =  $(".trippleGalery");
+    var leftArrow = $(".left-arrow");
+    var rightArrow = $(".right-arrow");
+    var gallery =  $(".tripple-galery");
 
     rightArrow.on('click', function () {
 
-            gallery.append($(".galeryBox:first").clone());
-            $(".galeryBox:first").remove();
+            gallery.append($(".galery-box:first").clone());
+            $(".galery-box:first").remove();
 
             var personActive = gallery.find('.active');
             $(personActive[0]).removeClass('active');
@@ -39,8 +39,8 @@ $(function () {
     );
     leftArrow.on('click', function () {
 
-            gallery.prepend($(".galeryBox:last").clone());
-            $(".galeryBox:last").remove();
+            gallery.prepend($(".galery-box:last").clone());
+            $(".galery-box:last").remove();
 
             var personActive = gallery.find('.active');
             $(personActive[0]).removeClass('active');
@@ -90,12 +90,8 @@ $(function () {
     var current = 0,
         imgs = $('.sliderauto .pixellorem');
     imgAmount = imgs.length;
-
     imgs.addClass('place-icon').hide().eq(0).show();
-
-
     window.setInterval(swapImages, 1500);
-
 
     function swapImages() {
         var currentImg = $(imgs[current]);
@@ -105,7 +101,5 @@ $(function () {
         currentImg.fadeOut(speed);
         nextImg.fadeIn(speed);
     }
-
-});
-
+  });
 });

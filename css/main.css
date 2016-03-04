@@ -533,7 +533,7 @@ button:active{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem; 
+  padding-bottom: 2rem;
 }
 
 .slider-contener {
@@ -582,6 +582,75 @@ button:active{
   background-position: center;
   border-radius: 100%;
   padding: 7rem;
+}
+
+.portfolio-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portf-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+}
+
+.portf-icon p {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 0.3rem;
+}
+
+.main-galery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.galleryBox {
+  padding: 1rem;
+}
+
+.gallery img {
+  width: 120%;
+}
+
+.gallery img:hover {
+  opacity: 0.5;
+}
+
+.gallery p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.gallery p:first-child {
+  font-weight: bold;
+}
+
+.watchmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 

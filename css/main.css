@@ -315,15 +315,15 @@ h3{
   padding-bottom: 5%;
   font-weight: bold;
   width: 100%;
-  font-size: 200%;
+  font-size: 240%;
 }
 
 .about-us-contener {
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
-
 }
+
 .displayers{
   text-align: center;
 }
@@ -331,6 +331,7 @@ h3{
 .displayers img{
   width: 80%;
 }
+
 .about-us-content {
   display: flex;
   flex-direction: column;
@@ -351,7 +352,6 @@ button{
   font-family: inherit;
   font-size: 110%;
   box-shadow: 0 9px 9px -7px black;
-
 }
 
 button:hover{
@@ -373,8 +373,9 @@ button:active{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:5% 0 5% 0;
+  margin:5% 0 0 0;
 }
+
 .sec-header-box {
   background-image: url(../pictures/butonniewidzialny.png);
   background-repeat: no-repeat;
@@ -387,6 +388,32 @@ button:active{
 .sec-header-section p {
   color: white;
   margin-top: 1rem;
+  font-size: 180%;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.leftArrow {
+  background-image: url(../pictures/leftarrow_01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 4%;
+  width: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.rightArrow {
+  background-image: url(../pictures/leftarrow_02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 4%;
+  width: 5%;
+  display: flex;
+  justify-content: center;
 }
 
 

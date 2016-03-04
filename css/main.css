@@ -54,6 +54,7 @@ body {
   font-family: existance;
   font-size:1.4rem;
 }
+
 .font-color-1 {
   color: white;
 }
@@ -74,10 +75,6 @@ body {
   padding-top: 5rem;
 }
 
-.big-text-400 {
-  font-size: 400%;
-}
-
 .header-bg {
   background-image: url(../pictures/HeaderBhagaskara.png);
   background-size:cover;
@@ -94,6 +91,7 @@ body {
 h1 {
   color: white;
   font-weight: bold;
+  font-size: 400%;
 }
 
 .intromenu {
@@ -101,7 +99,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 20rem;
+  height: 25rem;
 }
 
 .order1 {
@@ -144,8 +142,97 @@ h1 {
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: 5%;
-  margin-right: 1em;
-  width: 9%;
+  margin-right: 3%;
+  width: 8%;
   text-align: center;
   text-decoration: none;
+}
+
+.introbutton:hover {
+  background-image: url(../pictures/buton-fiolet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 5%;
+  margin-right: 3%;
+  width: 8%;
+  text-align: center;
+}
+
+.introbutton:nth-child(3) {
+  margin-right: -1%;
+}
+
+.introbutton:nth-child(3):hover {
+  margin-right: -1%;
+}
+
+.introbutton:nth-child(5) {
+  margin-left: -1%;
+}
+
+.introbutton:nth-child(5):hover {
+  margin-left: -1%;
+}
+
+
+.introbutton .icon {
+width: 35%;
+margin-top:20%;
+}
+
+.introbutton p {
+  display: block;
+  color: white;
+  margin-top: 10%;
+}
+
+.down-arrow {
+  background-image: url(../pictures/butonniewidzialny.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 10%;
+  width: 4%;
+  text-align: center;
+}
+
+.down-arrow:hover {
+  background-image: url(../pictures/buton-fiolet.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 10%;
+  width: 4%;
+  text-align: center;
+}
+
+.downArrow-icon {
+  width: 38%;
+  margin-top: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    font-size:1.2rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    font-size:1rem;
+  }
+  .introbutton {
+    width: 14%;
+  }
+  .introbutton:hover {
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 700px) {
+  .intromenu {
+      display: none;
+  }
 }

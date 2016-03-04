@@ -458,11 +458,13 @@ nav li:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .paragraphs {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .paragraphs p {
   display: flex;
@@ -476,11 +478,11 @@ nav li:hover {
   justify-content: flex-start;
   font-size: 1.6rem; }
 
-.parameter {
-  display: flex;
-  flex-direction: column;
-  padding: 0 3% 0 5%;
-  width: 25%; }
+  .parameter {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3% 0 5%;
+    width: 25%; }
 
 .percentFull {
   background-color: lightgray;

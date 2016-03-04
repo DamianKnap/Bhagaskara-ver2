@@ -463,7 +463,6 @@ button:active{
 .our-skill-contener {
   display: flex;
   flex-direction: column;
-
 }
 
 .firstrow {
@@ -500,6 +499,91 @@ button:active{
   height: 1rem;
 }
 
+.data-slider-section {
+  background-color: lightgray;
+}
+
+.data-section {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem 0 3rem 0;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.data-cel {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:3%;
+  width: 6em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.data-cel p:first-child {
+  font-size: 200%;
+}
+
+.silder-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem; 
+}
+
+.slider-contener {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pixellorem p:first-of-type {
+  text-align: center;
+  min-height: 6rem;
+  margin-top: 1rem;
+}
+
+.place-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-1 {
+  background-image: url(../pictures/building-641136_640.jpg);
+}
+.icon-2 {
+  background-image: url(../pictures/home-office-336377_640.jpg);
+}
+.icon-3 {
+  background-image: url(../pictures/window-770535_640.jpg);
+}
+.icon-4 {
+  background-image: url(../pictures/computer-564136_640.jpg);
+}
+.icon-5 {
+  background-image: url(../pictures/office-639307_640.jpg);
+}
+.icon-6 {
+  background-image: url(../pictures/girl-657753_640.jpg);
+}
+
+.icon-parametr {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  padding: 7rem;
+}
+
 
 @media screen and (max-width: 1400px) {
   body {
@@ -534,5 +618,8 @@ button:active{
   }
   .about-us-content {
     align-items: center;
+  }
+  .slider-contener {
+    width: 80%;
   }
 }

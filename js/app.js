@@ -51,7 +51,7 @@ $(function () {
     );
 
 
-    function skiller() {//funkcja która ustawia fioletowe paski na szerokosc pobran¹ z atrybutów data dla osoby w srodku
+    function skiller() {//funkcja ktï¿½ra ustawia fioletowe paski na szerokosc pobranï¿½ z atrybutï¿½w data dla osoby w srodku
         var activePerson = $('.active');
 
         var skillweb = $(activePerson[0]).data('web');
@@ -84,14 +84,14 @@ $(function () {
 
     }
 
-    skiller();//wywo³anie funkcji aby procenty na paskach wskazywa³y srodkowa osobe
+    skiller();//wywoï¿½anie funkcji aby procenty na paskach wskazywaï¿½y srodkowa osobe
 
 
     var current = 0,
         imgs = $('.sliderauto .pixellorem');
     imgAmount = imgs.length;
 
-    imgs.addClass('placeIcon').hide().eq(0).show();
+    imgs.addClass('place-icon').hide().eq(0).show();
 
 
     window.setInterval(swapImages, 1500);

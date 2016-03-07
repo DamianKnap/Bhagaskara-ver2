@@ -140,7 +140,7 @@ h1 {
 .order4 {
     order: 3;
     align-self: flex-end;
-  }
+}
 
 .order5 {
     order: 4;
@@ -291,7 +291,6 @@ li a {
   text-align: center;
   width: 13rem;
   padding: 2%;
-
 }
 
 .title-box {
@@ -313,7 +312,7 @@ li a {
   padding: 20%;
 }
 
-h3{
+h3 {
   text-align: center;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -332,7 +331,7 @@ h3{
   text-align: center;
 }
 
-.displayers img{
+.displayers img {
   width: 80%;
 }
 
@@ -345,7 +344,7 @@ h3{
   text-align: justify;
 }
 
-button{
+button {
   border:none;
   color: white;
   margin-top: 15%;
@@ -358,12 +357,12 @@ button{
   box-shadow: 0 9px 9px -7px black;
 }
 
-button:hover{
+button:hover {
   color:black;
   cursor: pointer;
 }
 
-button:active{
+button:active {
   box-shadow: 0 0 0 0;
 }
 
@@ -719,7 +718,7 @@ button:active{
   margin-top: 2rem;
 }
 
-.footer{
+.footer {
   height: 10rem;
   line-height: 5rem;
 }
@@ -734,12 +733,15 @@ button:active{
   body {
     font-size:1rem;
   }
+
   .introbutton {
     width: 14%;
   }
+
   .introbutton:hover {
     width: 14%;
   }
+
   .about-us-content {
     align-items: center;
   }
@@ -763,10 +765,11 @@ button:active{
   .slider-contener {
     width: 80%;
   }
-.galery-box{
-  display: none;
+
+  .galery-box {
+    display: none;
 }
   .active {
-  display: flex;
+    display: flex;
   }
 }

@@ -20,6 +20,16 @@ $(function () {
             menu.removeClass("sticky");
         }
     });
+
+    $('a[href^="#"]').on('click',function (e) {
+        var target = this.hash;
+        var $target = $(target);
+        $('html, body').animate({ 'scrollTop': $target.offset().top - 50 }, 800, 'swing');
+          if(target){
+            e.preventDefault();
+          }
+    });
+
 ////////////////////////////////////////////////////OUR TEAM GALLERY/////////////////////////////////////////////////////////
     var leftArrow = $(".left-arrow");
     var rightArrow = $(".right-arrow");

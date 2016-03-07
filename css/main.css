@@ -335,12 +335,17 @@ h3 {
   width: 80%;
 }
 
+
 .about-us-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 30rem;
-  padding: 2%;
+
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;
+   flex-direction: column;
+   width: 30rem;
+   padding: 2%;
   text-align: justify;
 }
 
@@ -392,6 +397,8 @@ button:active {
   color: white;
   margin-top: 1rem;
   font-size: 180%;
+  width: 70%;
+  text-align: center;
 }
 
 .arrows {
@@ -548,8 +555,9 @@ button:active {
 
 .pixellorem p:first-of-type {
   text-align: center;
-  min-height: 6rem;
+  min-height: 7rem;
   margin-top: 1rem;
+  width: 90%;
 }
 
 .place-icon {
@@ -758,7 +766,7 @@ button:active {
       display: none;
   }
 
-  .about-us-content {
+  .about-us-content p {
     align-items: center;
   }
 

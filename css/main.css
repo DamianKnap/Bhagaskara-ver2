@@ -52,6 +52,7 @@ table {
 body {
   font-family: existance;
   font-size:1.4rem;
+  line-height: 1.3em;
 }
 
 a {
@@ -289,7 +290,7 @@ li a {
 
 .contentbox {
   text-align: center;
-  width: 13rem;
+  width: 12em;
   padding: 2%;
 }
 
@@ -300,7 +301,7 @@ li a {
 }
 
 .contentbox p {
-  font-size: 70%;
+  font-size: 90%;
   line-height: 150%;
 }
 
@@ -327,7 +328,7 @@ h3 {
   justify-content:center;
 }
 
-.displayers{
+.displayers {
   text-align: center;
 }
 
@@ -335,13 +336,7 @@ h3 {
   width: 80%;
 }
 
-
 .about-us-content {
-
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-   display: -ms-flexbox;      /* TWEENER - IE 10 */
-   display: -webkit-flex;     /* NEW - Chrome */
    display: flex;
    flex-direction: column;
    width: 30rem;
@@ -376,7 +371,7 @@ button:active {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 18em;
+  height: 18rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -390,13 +385,14 @@ button:active {
   background-size: contain;
   background-position: center;
   text-align: center;
-  padding: 3rem;
+  padding: 3em;
 }
 
 .sec-header-section p {
   color: white;
-  margin-top: 1rem;
-  font-size: 180%;
+  margin: 1rem 0 1rem 0;
+  line-height: 1.3rem;
+  font-size: 170%;
   width: 70%;
   text-align: center;
 }
@@ -436,7 +432,7 @@ button:active {
   align-items: center;
   justify-content: center;
   margin: 0 1% 0 1%;
-  width: 17rem;
+  width: 17em;
   z-index: 2;
 }
 
@@ -457,7 +453,7 @@ button:active {
   background-size: cover;
   background-position: center;
   border-radius: 100%;
-  padding: 7rem;
+  padding: 7em;
 }
 
 .galery-text {
@@ -465,9 +461,9 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 7rem;
+  height: 7em;
   width: 80%;
-  margin-top: 1rem;
+  margin-top: 1em;
 }
 
 .our-skill-contener {
@@ -478,7 +474,7 @@ button:active {
 .firstrow {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .secrow {
@@ -487,7 +483,7 @@ button:active {
 }
 
 .parameter {
-  width: 30%;
+  width: 40%;
   margin: 0 1rem 0 1rem;
 }
 
@@ -495,6 +491,7 @@ button:active {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .percentFull {
@@ -543,7 +540,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2em;
 }
 
 .slider-contener {
@@ -555,8 +552,8 @@ button:active {
 
 .pixellorem p:first-of-type {
   text-align: center;
-  min-height: 7rem;
-  margin-top: 1rem;
+  min-height: 7em;
+  margin-top: 1em;
   width: 90%;
 }
 
@@ -592,7 +589,7 @@ button:active {
   background-size: cover;
   background-position: center;
   border-radius: 100%;
-  padding: 7rem;
+  padding: 7em;
 }
 
 .portfolio-icons {
@@ -604,7 +601,7 @@ button:active {
 .portf-icon {
   display: flex;
   align-items: center;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1em 0 1em;
 }
 
 .portf-icon p {
@@ -665,16 +662,23 @@ button:active {
   margin-bottom: 5%;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contactContener {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding-bottom: 1%;
 }
 
 .inputContener {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  justify-content: center;
+  width: 15em;
 }
 
 .inputContener input {
@@ -690,8 +694,9 @@ button:active {
 .contactTextContener {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 17em;
   padding-left: 2%;
+  text-align: justify;
 }
 
 .textBoxer {
@@ -713,21 +718,18 @@ button:active {
   padding: 5% 0 5% 0;
 }
 
-.treemediaIcons {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-}
-
 .buttonsendemail {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  flex-direction: row;
+  margin: 1em 0 2em 0;
 }
 
 .footer {
-  height: 10rem;
+  height: 5rem;
   line-height: 5rem;
+  text-align: center;
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -739,6 +741,10 @@ button:active {
 @media screen and (max-width: 1100px) {
   body {
     font-size:1rem;
+  }
+
+  .contentbox {
+    width: 11em;
   }
 
   .introbutton {
@@ -761,6 +767,7 @@ button:active {
 }
 
 @media screen and (max-width: 700px) {
+
   .intromenu {
       display: none;
   }
@@ -779,8 +786,19 @@ button:active {
 
   .galery-box {
     display: none;
-}
+  }
+
   .active {
     display: flex;
+  }
+
+  .contactContener{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    font-size:0.9rem;
   }
 }
